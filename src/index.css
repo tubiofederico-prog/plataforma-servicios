@@ -23,8 +23,8 @@
 
   /* Phone frame consistent styling */
   .phone-frame-wrapper {
-    @apply w-full h-screen md:w-[390px] md:h-[844px] bg-white rounded-[55px] overflow-hidden;
-    box-shadow: 0 0 0 8px #111827, 0 50px 100px rgba(0, 0, 0, 0.4);
+    @apply w-full h-screen md:w-[430px] md:h-[932px] bg-white rounded-[60px] overflow-hidden;
+    box-shadow: 0 0 0 10px #111827, 0 50px 100px rgba(0, 0, 0, 0.4);
   }
 
   .phone-frame-content {

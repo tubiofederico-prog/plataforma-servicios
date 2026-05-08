@@ -22,7 +22,7 @@ export function MobileLayout({ app = 'cliente' }) {
 
   return (
     <PhoneFrame>
-      <div className="flex flex-col h-screen md:h-[844px]">
+      <div className="flex flex-col h-screen md:h-[932px]">
         {/* Main content area - scrollable */}
         <div className="flex-1 overflow-y-auto">
           <Outlet />
