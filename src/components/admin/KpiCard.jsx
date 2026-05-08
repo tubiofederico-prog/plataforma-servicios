@@ -1,6 +1,6 @@
 import { Card, CardBody } from '@/components/ui/Card'
 
-export function KpiCard({ title, value, icon: Icon, color = 'blue' }) {
+export function KpiCard({ title, value, icon: Icon, color = 'green' }) {
   return (
     <Card>
       <CardBody className="text-center">

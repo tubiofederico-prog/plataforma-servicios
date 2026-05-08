@@ -48,7 +48,7 @@ export function SeguimientoOrden() {
 
         {/* Status Card */}
         <div className="px-4 mb-6">
-          <Card className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200">
+          <Card className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200">
             <CardBody>
               <div className="flex items-start justify-between mb-4">
                 <div>
@@ -68,7 +68,7 @@ export function SeguimientoOrden() {
         {/* Trabajador Info */}
         <div className="px-4 mb-6">
           <h3 className="text-sm font-bold text-gray-500 uppercase tracking-wide mb-3">Tu profesional</h3>
-          <Card className="border-violet-200 hover:shadow-lg transition-all">
+          <Card className="border-green-200 hover:shadow-lg transition-all">
             <CardBody>
               <div className="flex items-start gap-4">
                 <Avatar initials={trabajador.avatar} size="lg" />
@@ -138,7 +138,7 @@ export function SeguimientoOrden() {
                   <DollarSign className="w-4 h-4" />
                   Costo
                 </span>
-                <span className="font-bold text-violet-600 text-lg">${orden.precio}</span>
+                <span className="font-bold text-green-600 text-lg">${orden.precio}</span>
               </div>
             </CardBody>
           </Card>

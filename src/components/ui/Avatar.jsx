@@ -8,7 +8,7 @@ export function Avatar({ initials, size = 'md', className, ...props }) {
     xl: 'w-16 h-16 text-lg'
   }
 
-  const colors = ['bg-violet-600', 'bg-blue-600', 'bg-green-600', 'bg-orange-600', 'bg-pink-600', 'bg-indigo-600']
+  const colors = ['bg-green-600', 'bg-green-700', 'bg-emerald-600', 'bg-teal-600', 'bg-cyan-600', 'bg-green-600']
   const colorIndex = (initials ? initials.charCodeAt(0) : 0) % colors.length
 
   return (

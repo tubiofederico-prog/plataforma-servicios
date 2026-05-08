@@ -11,7 +11,7 @@ const CATEGORIAS_COMPLETAS = [
   { id: 'limpieza', nombre: 'Limpieza', desc: 'Limpieza del hogar', icon: '✨', color: 'from-green-400 to-emerald-500', servicios: 5 },
   { id: 'jardineria', nombre: 'Jardinería', desc: 'Cuidado de jardines', icon: '🌿', color: 'from-lime-400 to-green-600', servicios: 5 },
   { id: 'pintura', nombre: 'Pintura', desc: 'Trabajos de pintura', icon: '🎨', color: 'from-red-400 to-rose-500', servicios: 5 },
-  { id: 'mudanzas', nombre: 'Mudanzas', desc: 'Servicio de mudanza', icon: '🚚', color: 'from-purple-400 to-violet-600', servicios: 5 },
+  { id: 'mudanzas', nombre: 'Mudanzas', desc: 'Servicio de mudanza', icon: '🚚', color: 'from-purple-400 to-green-600', servicios: 5 },
 ]
 
 const SERVICIOS_DESTACADOS = [
@@ -34,7 +34,7 @@ export function BuscarCategorias() {
             <input
               type="text"
               placeholder="Buscar servicios..."
-              className="w-full pl-12 pr-4 py-2.5 bg-gray-100 border-0 rounded-full focus:outline-none focus:ring-2 focus:ring-violet-600 text-sm"
+              className="w-full pl-12 pr-4 py-2.5 bg-gray-100 border-0 rounded-full focus:outline-none focus:ring-2 focus:ring-green-600 text-sm"
             />
           </div>
         </div>
@@ -67,7 +67,7 @@ export function BuscarCategorias() {
               <Card
                 key={idx}
                 onClick={() => navigate('/cliente/buscar')}
-                className="cursor-pointer hover:shadow-lg transition-all border-violet-100"
+                className="cursor-pointer hover:shadow-lg transition-all border-green-100"
               >
                 <CardBody>
                   <div className="flex items-start justify-between gap-3">
@@ -86,7 +86,7 @@ export function BuscarCategorias() {
                       </div>
                     </div>
                     <div className="text-right flex-shrink-0">
-                      <p className="font-bold text-lg text-violet-600">${servicio.precio}</p>
+                      <p className="font-bold text-lg text-green-600">${servicio.precio}</p>
                       <Badge variant="success" size="sm" className="mt-2">Disponible</Badge>
                     </div>
                   </div>

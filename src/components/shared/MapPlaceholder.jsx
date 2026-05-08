@@ -17,12 +17,12 @@ export function MapPlaceholder({ location = 'Montevideo, Uruguay' }) {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <div className="flex flex-col items-center">
           <div className="relative">
-            <div className="w-4 h-4 bg-violet-600 rounded-full shadow-lg" />
-            <div className="absolute inset-0 w-4 h-4 bg-violet-400 rounded-full animate-ping" />
+            <div className="w-4 h-4 bg-green-600 rounded-full shadow-lg" />
+            <div className="absolute inset-0 w-4 h-4 bg-green-400 rounded-full animate-ping" />
           </div>
           {/* Satellite dish */}
           <div className="mt-2 flex items-center justify-center">
-            <Zap className="w-5 h-5 text-violet-600" />
+            <Zap className="w-5 h-5 text-green-600" />
           </div>
         </div>
       </div>

@@ -49,11 +49,11 @@ export function DashboardTrabajador() {
 
       <div className="flex flex-col h-full pb-24 overflow-y-auto">
         {/* Hero Section - Status */}
-        <div className="px-4 pt-4 pb-6 bg-gradient-to-br from-violet-600 to-blue-600 text-white">
+        <div className="px-4 pt-4 pb-6 bg-gradient-to-br from-green-600 to-emerald-600 text-white">
           <div className="flex items-start justify-between mb-6">
             <div className="flex-1">
               <h2 className="text-3xl font-bold mb-2">¡Hola {trabajador.nombre.split(' ')[0]}! 👋</h2>
-              <div className="flex items-center gap-2 text-violet-100">
+              <div className="flex items-center gap-2 text-green-100">
                 <MapPin className="w-4 h-4" />
                 <span className="text-sm font-medium">{trabajador.distancia} de ti</span>
               </div>
@@ -102,12 +102,12 @@ export function DashboardTrabajador() {
               </CardBody>
             </Card>
 
-            <Card className="border-blue-200 bg-blue-50">
+            <Card className="border-green-200 bg-green-50">
               <CardBody className="text-center">
-                <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-blue-600 text-white mx-auto mb-3">
+                <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-green-600 text-white mx-auto mb-3">
                   <CheckCircle2 className="w-6 h-6" />
                 </div>
-                <p className="text-3xl font-bold text-blue-600">{trabajador.ordenesHoy}</p>
+                <p className="text-3xl font-bold text-green-600">{trabajador.ordenesHoy}</p>
                 <p className="text-xs text-gray-600 mt-2 font-medium">Servicios</p>
               </CardBody>
             </Card>
@@ -133,7 +133,7 @@ export function DashboardTrabajador() {
 
             <Card>
               <CardBody className="text-center">
-                <p className="text-2xl font-bold text-violet-600">{trabajador.ordenesCompletadas}</p>
+                <p className="text-2xl font-bold text-green-600">{trabajador.ordenesCompletadas}</p>
                 <p className="text-xs text-gray-600 mt-2 font-medium">Servicios realizados</p>
               </CardBody>
             </Card>
@@ -149,7 +149,7 @@ export function DashboardTrabajador() {
                 </div>
                 <div className="text-right">
                   <p className="text-sm text-gray-600 font-medium">Tiempo resp. prom.</p>
-                  <p className="text-2xl font-bold text-violet-600 mt-1">{trabajador.tiempoRespuesta}</p>
+                  <p className="text-2xl font-bold text-green-600 mt-1">{trabajador.tiempoRespuesta}</p>
                 </div>
               </div>
             </CardBody>
@@ -165,7 +165,7 @@ export function DashboardTrabajador() {
                 <Card
                   key={solicitud.id}
                   className={`border-2 hover:shadow-lg transition-all cursor-pointer ${
-                    solicitud.urgencia === 'alta' ? 'border-red-300 bg-red-50' : 'border-violet-200'
+                    solicitud.urgencia === 'alta' ? 'border-red-300 bg-red-50' : 'border-green-200'
                   }`}
                 >
                   <CardBody>
@@ -186,7 +186,7 @@ export function DashboardTrabajador() {
                         <MapPin className="w-3.5 h-3.5" />
                         {solicitud.distancia}
                       </span>
-                      <span className="font-bold text-violet-600">${solicitud.pago}</span>
+                      <span className="font-bold text-green-600">${solicitud.pago}</span>
                     </div>
 
                     <div className="grid grid-cols-2 gap-2">

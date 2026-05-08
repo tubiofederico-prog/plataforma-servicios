@@ -6,8 +6,8 @@ export function StatusBadge({ label, status = 'default', size = 'md', className,
     success: { dot: 'bg-green-500', bg: 'bg-green-100', text: 'text-green-700' },
     warning: { dot: 'bg-yellow-500', bg: 'bg-yellow-100', text: 'text-yellow-700' },
     danger: { dot: 'bg-red-500', bg: 'bg-red-100', text: 'text-red-700' },
-    info: { dot: 'bg-blue-500', bg: 'bg-blue-100', text: 'text-blue-700' },
-    processing: { dot: 'bg-purple-500 animate-pulse', bg: 'bg-purple-100', text: 'text-purple-700' }
+    info: { dot: 'bg-green-500', bg: 'bg-green-100', text: 'text-green-700' },
+    processing: { dot: 'bg-green-500 animate-pulse', bg: 'bg-green-100', text: 'text-green-700' }
   }
 
   const sizes = {

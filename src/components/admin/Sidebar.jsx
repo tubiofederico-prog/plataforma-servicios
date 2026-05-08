@@ -32,7 +32,7 @@ export function Sidebar() {
     <div className="hidden md:flex flex-col w-64 bg-white border-r border-gray-200 min-h-screen">
       {/* Logo */}
       <div className="px-6 py-6 border-b border-gray-200">
-        <h1 className="text-xl font-bold bg-gradient-to-r from-violet-600 to-blue-600 bg-clip-text text-transparent">
+        <h1 className="text-xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
           Plataforma
         </h1>
         <p className="text-xs text-gray-500 mt-1">Panel de Control</p>
@@ -51,7 +51,7 @@ export function Sidebar() {
               className={cn(
                 'flex items-center gap-3 px-4 py-3 rounded-lg transition-all text-sm font-medium',
                 isActive
-                  ? 'bg-violet-100 text-violet-700'
+                  ? 'bg-green-100 text-green-700'
                   : 'text-gray-700 hover:bg-gray-100'
               )}
             >

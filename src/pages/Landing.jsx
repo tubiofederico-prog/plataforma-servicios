@@ -10,7 +10,7 @@ export function Landing() {
       title: 'Soy Cliente',
       description: 'Solicita servicios y gestiona tus pedidos',
       icon: Users,
-      color: 'from-blue-500 to-cyan-600',
+      color: 'from-green-500 to-emerald-600',
       path: '/cliente'
     },
     {
@@ -18,7 +18,7 @@ export function Landing() {
       title: 'Soy Trabajador',
       description: 'Recibe solicitudes y gana dinero',
       icon: Briefcase,
-      color: 'from-violet-500 to-purple-600',
+      color: 'from-green-500 to-emerald-700',
       path: '/trabajador'
     },
     {
@@ -26,19 +26,19 @@ export function Landing() {
       title: 'Panel Admin',
       description: 'Gestiona la plataforma',
       icon: Lock,
-      color: 'from-orange-500 to-red-600',
+      color: 'from-green-600 to-emerald-700',
       path: '/admin'
     }
   ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-violet-900 to-slate-900 flex flex-col items-center justify-center px-4 py-12">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-green-900 to-slate-900 flex flex-col items-center justify-center px-4 py-12">
       {/* Header */}
       <div className="text-center mb-12 md:mb-16">
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
           Plataforma de Servicios
         </h1>
-        <p className="text-lg md:text-xl text-violet-200 max-w-2xl mx-auto">
+        <p className="text-lg md:text-xl text-green-200 max-w-2xl mx-auto">
           Conecta con profesionales, solicita servicios o gana dinero realizando trabajos
         </p>
       </div>
@@ -61,9 +61,9 @@ export function Landing() {
               </div>
 
               <h2 className="text-2xl font-bold text-white mb-2">{role.title}</h2>
-              <p className="text-violet-200 mb-6">{role.description}</p>
+              <p className="text-green-200 mb-6">{role.description}</p>
 
-              <div className="flex items-center gap-2 text-violet-300 group-hover:text-white transition-colors font-medium">
+              <div className="flex items-center gap-2 text-green-300 group-hover:text-white transition-colors font-medium">
                 Continuar
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </div>
@@ -73,7 +73,7 @@ export function Landing() {
       </div>
 
       {/* Footer info */}
-      <div className="text-center text-violet-300 text-sm max-w-lg">
+      <div className="text-center text-green-300 text-sm max-w-lg">
         <p>Este es un prototipo visual de una plataforma de servicios integral con experiencias para clientes, trabajadores y administradores.</p>
       </div>
     </div>

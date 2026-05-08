@@ -46,13 +46,13 @@ export function Pago() {
               </div>
               <div className="pt-2 border-t border-gray-200 flex justify-between font-bold">
                 <span>Total</span>
-                <span className="text-lg text-violet-600">{formatCurrency(orden?.precio || 0)}</span>
+                <span className="text-lg text-green-600">{formatCurrency(orden?.precio || 0)}</span>
               </div>
             </div>
           </CardBody>
         </Card>
 
-        <div className="bg-blue-50 border border-blue-200 rounded-xl p-3 flex gap-2 text-xs text-blue-700">
+        <div className="bg-green-50 border border-green-200 rounded-xl p-3 flex gap-2 text-xs text-green-700">
           <Lock className="w-4 h-4 mt-0.5 flex-shrink-0" />
           <span>Tus datos de pago están protegidos con encriptación de seguridad</span>
         </div>

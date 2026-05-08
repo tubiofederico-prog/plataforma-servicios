@@ -14,7 +14,7 @@ export function LoginCliente() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center px-4">
+    <div className="min-h-screen bg-gradient-to-br from-green-50 to-green-50 flex items-center justify-center px-4">
       <div className="w-full max-w-md">
         <div className="bg-white rounded-2xl shadow-xl p-8">
           <div className="text-center mb-8">
@@ -40,7 +40,7 @@ export function LoginCliente() {
                   type={showPassword ? 'text' : 'password'}
                   placeholder="••••••••"
                   defaultValue="123456"
-                  className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-100"
+                  className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-100"
                 />
                 <button
                   type="button"
@@ -83,7 +83,7 @@ export function LoginCliente() {
             ¿No tienes cuenta?{' '}
             <button
               onClick={() => navigate('/cliente')}
-              className="text-blue-600 hover:text-blue-700 font-medium"
+              className="text-green-600 hover:text-green-700 font-medium"
             >
               Regístrate aquí
             </button>

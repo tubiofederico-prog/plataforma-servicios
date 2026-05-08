@@ -34,7 +34,7 @@ export function SolicitarServicio() {
                 <span className="text-gray-600">Duración:</span> <span className="font-medium">{servicio.duracionEstimada} minutos</span>
               </p>
               <p>
-                <span className="text-gray-600">Precio:</span> <span className="font-bold text-violet-600">{formatCurrency(servicio.precio)}</span>
+                <span className="text-gray-600">Precio:</span> <span className="font-bold text-green-600">{formatCurrency(servicio.precio)}</span>
               </p>
             </div>
           </CardBody>
@@ -53,7 +53,7 @@ export function SolicitarServicio() {
           <div className="max-w-md mx-auto">
             <div className="flex items-center justify-between mb-3 font-semibold">
               <span>Total:</span>
-              <span className="text-2xl text-violet-600">{formatCurrency(servicio.precio)}</span>
+              <span className="text-2xl text-green-600">{formatCurrency(servicio.precio)}</span>
             </div>
             <Button variant="primary" size="block" onClick={handleSolicitar}>
               Solicitar ahora

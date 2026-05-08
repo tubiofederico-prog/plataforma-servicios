@@ -22,7 +22,7 @@ export function BottomTabBar({ items }) {
             className={cn(
               'flex-1 flex flex-col items-center justify-center py-3 px-2 text-xs font-medium transition-all',
               isActive
-                ? 'text-violet-600 bg-violet-50'
+                ? 'text-green-600 bg-green-50'
                 : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
             )}
           >

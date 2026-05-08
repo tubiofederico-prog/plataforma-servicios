@@ -30,7 +30,7 @@ export function HistorialCliente() {
                 <p className="text-xs text-gray-500 mb-2">Trabajador: {trabajador?.nombre}</p>
                 <div className="flex justify-between text-sm">
                   <span className="text-gray-600">{formatDate(orden.fechaSolicitud)}</span>
-                  <span className="font-bold text-violet-600">{formatCurrency(orden.precio)}</span>
+                  <span className="font-bold text-green-600">{formatCurrency(orden.precio)}</span>
                 </div>
               </CardBody>
             </Card>

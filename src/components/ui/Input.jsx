@@ -12,7 +12,7 @@ export function Input({ label, error, helperText, className, ...props }) {
       <input
         className={cn(
           'w-full px-4 py-2.5 border border-gray-300 rounded-lg',
-          'focus:outline-none focus:border-violet-600 focus:ring-2 focus:ring-violet-100',
+          'focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-100',
           'placeholder:text-gray-400',
           error && 'border-red-500 focus:border-red-500 focus:ring-red-100',
           className
@@ -37,7 +37,7 @@ export function Textarea({ label, error, helperText, className, ...props }) {
       <textarea
         className={cn(
           'w-full px-4 py-2.5 border border-gray-300 rounded-lg resize-none',
-          'focus:outline-none focus:border-violet-600 focus:ring-2 focus:ring-violet-100',
+          'focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-100',
           'placeholder:text-gray-400',
           error && 'border-red-500 focus:border-red-500 focus:ring-red-100',
           className

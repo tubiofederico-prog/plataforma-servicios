@@ -10,7 +10,7 @@ export function Topbar() {
           <input
             type="text"
             placeholder="Buscar órdenes, clientes..."
-            className="w-full pl-10 pr-4 py-2.5 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:border-violet-600"
+            className="w-full pl-10 pr-4 py-2.5 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:border-green-600"
           />
         </div>
       </div>
@@ -35,7 +35,7 @@ export function Topbar() {
 
         {/* User avatar */}
         <button className="flex items-center gap-3 pl-4 border-l border-gray-200">
-          <div className="w-8 h-8 rounded-full bg-violet-600 flex items-center justify-center">
+          <div className="w-8 h-8 rounded-full bg-green-600 flex items-center justify-center">
             <span className="text-white font-semibold text-sm">AD</span>
           </div>
           <div className="text-left hidden sm:block">

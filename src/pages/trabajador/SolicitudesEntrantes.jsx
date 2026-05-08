@@ -58,7 +58,7 @@ export function SolicitudesEntrantes() {
     <>
       <MobileHeader title="Solicitudes" showBack={false} />
       <div className="flex flex-col h-full pb-24 overflow-y-auto">
-        <div className="px-4 py-6 bg-gradient-to-br from-blue-50 to-cyan-50 border-b border-blue-100">
+        <div className="px-4 py-6 bg-gradient-to-br from-green-50 to-cyan-50 border-b border-green-100">
           <h2 className="text-lg font-bold text-gray-900 mb-2">Tienes {solicitudes.length} solicitudes</h2>
           <p className="text-sm text-gray-600">Acepta una para comenzar a ganar</p>
         </div>
@@ -68,7 +68,7 @@ export function SolicitudesEntrantes() {
             <Card
               key={solicitud.id}
               className={`border-2 hover:shadow-xl transition-all ${
-                solicitud.urgencia === 'alta' ? 'border-red-300 bg-red-50' : 'border-blue-200 bg-blue-50'
+                solicitud.urgencia === 'alta' ? 'border-red-300 bg-red-50' : 'border-green-200 bg-green-50'
               }`}
             >
               <CardBody>
@@ -90,7 +90,7 @@ export function SolicitudesEntrantes() {
                 <div className="mb-4 pb-4 border-b border-gray-200">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-2">
-                      <div className="w-8 h-8 rounded-full bg-gradient-to-br from-violet-400 to-violet-600 flex items-center justify-center text-white text-xs font-bold">
+                      <div className="w-8 h-8 rounded-full bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center text-white text-xs font-bold">
                         {solicitud.cliente.charAt(0)}
                       </div>
                       <div>
@@ -111,11 +111,11 @@ export function SolicitudesEntrantes() {
                 <div className="space-y-2 mb-4">
                   <div className="flex items-center justify-between text-sm">
                     <span className="text-gray-600 flex items-center gap-2">
-                      <MapPin className="w-4 h-4 text-blue-600" />
+                      <MapPin className="w-4 h-4 text-green-600" />
                       {solicitud.distancia}
                     </span>
                     <span className="text-gray-600 flex items-center gap-2">
-                      <Clock className="w-4 h-4 text-blue-600" />
+                      <Clock className="w-4 h-4 text-green-600" />
                       {solicitud.tiempoLlegada}
                     </span>
                   </div>
@@ -152,10 +152,10 @@ export function SolicitudesEntrantes() {
         </div>
 
         <div className="px-4 pb-6">
-          <Card className="bg-blue-50 border-blue-200">
+          <Card className="bg-green-50 border-green-200">
             <CardBody className="text-center">
-              <p className="text-sm text-blue-900 font-medium">💡 Consejo</p>
-              <p className="text-xs text-blue-800 mt-2">
+              <p className="text-sm text-green-900 font-medium">💡 Consejo</p>
+              <p className="text-xs text-green-800 mt-2">
                 Responde rápido a las solicitudes. Los clientes ven tu tiempo de respuesta.
               </p>
             </CardBody>

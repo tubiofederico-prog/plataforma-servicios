@@ -7,10 +7,13 @@ export default {
     extend: {
       colors: {
         brand: {
-          violet: '#7C3AED',
-          'violet-light': '#8B5CF6',
-          electric: '#2563EB',
-          'electric-light': '#3B82F6',
+          primary: '#1B5E20',      // Verde yerba oscuro - principal
+          'primary-dark': '#0D3B15',  // Más oscuro para hover
+          'primary-light': '#2E7D32',  // Un poco más claro
+          secondary: '#4CAF50',    // Verde yerba claro - secundario
+          'secondary-light': '#66BB6A',  // Verde claro para elementos suaves
+          accent: '#2E7D32',       // Verde oscuro para acentos
+          'accent-light': '#81C784',  // Verde suave
         }
       },
       animation: {

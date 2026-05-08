@@ -57,11 +57,11 @@ export function PerfilCliente() {
             <h3 className="font-bold mb-3">Estadísticas</h3>
             <div className="grid grid-cols-3 gap-3">
               <div className="text-center">
-                <p className="text-2xl font-bold text-violet-600">{cliente.ordenesTotales}</p>
+                <p className="text-2xl font-bold text-green-600">{cliente.ordenesTotales}</p>
                 <p className="text-xs text-gray-600">Pedidos</p>
               </div>
               <div className="text-center border-l border-r border-gray-200">
-                <p className="text-2xl font-bold text-violet-600">{cliente.calificacionPromedio}</p>
+                <p className="text-2xl font-bold text-green-600">{cliente.calificacionPromedio}</p>
                 <p className="text-xs text-gray-600">Rating</p>
               </div>
               <div className="text-center">
