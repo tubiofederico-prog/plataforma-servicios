@@ -1,5 +1,5 @@
 import { MobileHeader } from '@/components/mobile/MobileHeader'
-import { Card, CardBody, CardHeader } from '@/components/ui/Card'
+import { Card, CardBody } from '@/components/ui/Card'
 import { Avatar } from '@/components/ui/Avatar'
 import { Button } from '@/components/ui/Button'
 import { clientes } from '@/data'
