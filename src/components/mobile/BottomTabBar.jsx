@@ -7,8 +7,8 @@ export function BottomTabBar({ items }) {
   return (
     <nav
       className={cn(
-        'fixed md:absolute bottom-0 left-0 right-0 md:top-auto bg-white border-t border-gray-100',
-        'flex justify-around safe-area-inset'
+        'fixed md:absolute bottom-0 left-0 right-0 md:left-0 md:right-0 md:bottom-0 bg-white border-t border-gray-100',
+        'flex justify-around safe-area-inset w-full md:w-full'
       )}
     >
       {items.map((item) => {
