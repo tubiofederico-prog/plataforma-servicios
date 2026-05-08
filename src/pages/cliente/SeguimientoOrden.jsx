@@ -40,7 +40,7 @@ export function SeguimientoOrden() {
   return (
     <>
       <MobileHeader title="Seguimiento" showBack={true} />
-      <div className="flex flex-col h-full pb-24 overflow-y-auto">
+      <div className="flex flex-col h-full overflow-y-auto">
         {/* Map */}
         <div className="px-4 pt-4 pb-4">
           <MapPlaceholder location="Tu ubicación" />

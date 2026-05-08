@@ -47,7 +47,7 @@ export function DashboardTrabajador() {
         }
       />
 
-      <div className="flex flex-col h-full pb-24 overflow-y-auto">
+      <div className="flex flex-col h-full overflow-y-auto">
         {/* Hero Section - Status */}
         <div className="px-4 pt-4 pb-6 bg-gradient-to-br from-green-600 to-emerald-600 text-white">
           <div className="flex items-start justify-between mb-6">

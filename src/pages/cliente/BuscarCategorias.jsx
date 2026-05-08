@@ -26,7 +26,7 @@ export function BuscarCategorias() {
   return (
     <>
       <MobileHeader title="Servicios" showBack={false} />
-      <div className="flex flex-col h-full pb-24 overflow-y-auto bg-gray-50">
+      <div className="flex flex-col h-full overflow-y-auto bg-gray-50">
         {/* Search bar */}
         <div className="sticky top-0 z-20 px-4 py-4 bg-white border-b border-gray-100">
           <div className="relative">

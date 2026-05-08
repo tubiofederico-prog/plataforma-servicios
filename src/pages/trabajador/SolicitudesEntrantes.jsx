@@ -57,7 +57,7 @@ export function SolicitudesEntrantes() {
   return (
     <>
       <MobileHeader title="Solicitudes" showBack={false} />
-      <div className="flex flex-col h-full pb-24 overflow-y-auto">
+      <div className="flex flex-col h-full overflow-y-auto">
         <div className="px-4 py-6 bg-gradient-to-br from-green-50 to-cyan-50 border-b border-green-100">
           <h2 className="text-lg font-bold text-gray-900 mb-2">Tienes {solicitudes.length} solicitudes</h2>
           <p className="text-sm text-gray-600">Acepta una para comenzar a ganar</p>
