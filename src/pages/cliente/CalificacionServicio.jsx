@@ -26,7 +26,7 @@ export function CalificacionServicio() {
                 <Avatar initials={trabajador.avatar} size="lg" />
                 <div>
                   <h3 className="font-bold">{trabajador.nombre}</h3>
-                  <p className="text-sm text-gray-600">Profesional en {trabajador.categorias[0]}</p>
+                  <p className="text-sm text-gray-600">Profesional en {trabajador?.categorias?.[0] || 'servicios'}</p>
                 </div>
               </div>
             </CardBody>
